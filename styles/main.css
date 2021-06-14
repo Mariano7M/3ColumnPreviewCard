@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca");
+
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray: hsl(0, 0%, 95%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--transparent-white);
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders Display";
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-size: 0.8rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-content: space-between;
+  height: auto;
+}
+
+.card-preview {
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 90%;
+  margin: 3rem auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2.5em;
+}
+
+.bg-card-1 {
+  background-color: var(--bright-orange);
+}
+
+.bg-card-2 {
+  background-color: var(--dark-cyan);
+}
+
+.bg-card-3 {
+  background-color: var(--very-dark-cyan);
+}
+
+.bg-white {
+  background-color: var(--very-light-gray);
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.text-color-light-gray {
+  color: var(--very-light-gray);
+}
+
+.text-color-white {
+  color: var(--transparent-white);
+}
+
+.text-color-card-1 {
+  color: var(--bright-orange);
+}
+
+.text-color-card-2 {
+  color: var(--dark-cyan);
+}
+
+.text-color-card-3 {
+  color: var(--very-dark-cyan);
+}
+
+.btn {
+  background-color: var(--very-light-gray);
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: var(--very-light-gray);
+  border: 2px solid var(--very-light-gray);
+}
+
+.attribution {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 850px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  .card-preview {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin: 8rem auto;
+    width: min(80%, 1000px);
+  }
+
+  .card {
+    justify-content: space-around;
+  }
+}
