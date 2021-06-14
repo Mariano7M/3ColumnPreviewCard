@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/screenshot_desktop.jpg)
-![](./screenshots/screenshot_mobile.jpg)
+![](./screenshots/desktop-screenshot.jpg)
+![](./screenshots/mobile-screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/Mariano7M/3ColumnPreviewCard)
+- Live Site URL: [GitHub page](https://mariano7m.github.io/3ColumnPreviewCard/)
 
 ## My process
 
